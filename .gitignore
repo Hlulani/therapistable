@@ -3,3 +3,4 @@ oldguard
 node_modules
 .next
 .vscode
+.env

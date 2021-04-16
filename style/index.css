@@ -7,6 +7,10 @@
 
 @tailwind components;
 
+.lrg-btn{
+    @apply rounded w-32 bg-secondary p-2
+}
+
 /* Small (sm) */
 @media (min-width: 640px) { /* ... */ }
 
