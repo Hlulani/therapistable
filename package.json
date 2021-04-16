@@ -1,0 +1,39 @@
+{
+  "name": "name",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build ",
+    "start": "next start",
+    "tool": "deno run --allow-run --allow-read --allow-env oldguard/index.ts local",
+    "test": "echo the test goes here",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.0.0",
+    "@heroicons/react": "^1.0.1",
+    "@babel/core": "^7.12.9",
+    "animate.css": "^4.1.1",
+    "faunadb": "^4.1.1",
+    "next-pwa": "^5.0.0",
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@storybook/addon-actions": "^6.2.8",
+    "@storybook/addon-essentials": "^6.2.8",
+    "@storybook/addon-links": "^6.2.8",
+    "@storybook/react": "^6.2.8",
+    "autoprefixer": "^10.0.2",
+    "babel-loader": "^8.2.2",
+    "file-loader": "^6.2.0",
+    "jest": "^26.6.3",
+    "postcss": "^8.1",
+    "postcss-loader": "^4.0.3",
+    "tailwindcss": "^2.0.1"
+  }
+}
