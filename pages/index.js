@@ -1,7 +1,19 @@
 import * as Component from 'components';
 
 export default function Index() {
+    const router = Component.useRouter();
+    const [name,setName] = Component.useState()
 
+    Component.useEffect(() => {
+        
+        let _q = router.query;
+
+        console.log(_q)
+
+        return () => {
+            
+        }
+    }, [router])
     return (
 
 

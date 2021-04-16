@@ -17,11 +17,11 @@ export default function SignUp() {
             </div>
             {/* end Heading */}
 
-            <form className="max-w-md p-2 bg-primary shadow-md m-4 rounded flex-col flex items-center">
+            <form  action="/" method="get" className="max-w-md p-2 bg-primary shadow-md m-4 rounded flex-col flex items-center">
                 <h1>Sign Up</h1>
-                <input className="w-64 p-2 m-2 rounded border" type="text" placeholder="username" />
-                <input className="w-64 p-2 m-2 rounded border" type="email" placeholder="email" />
-                <input className="p-2 rounded bg-secondary" type="button" value="submit" />
+                <input className="w-64 p-2 m-2 rounded border" type="text" name="username" placeholder="username" />
+                <input className="w-64 p-2 m-2 rounded border" type="email" name="email" placeholder="email" />
+                <input className="p-2 rounded bg-secondary" type="submit" value="submit" />
             </form>
 
         </div>
