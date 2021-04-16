@@ -21,6 +21,7 @@ export default function SignUp() {
                 <h1>Sign Up</h1>
                 <input className="w-64 p-2 m-2 rounded border" type="text" name="username" placeholder="username" />
                 <input className="w-64 p-2 m-2 rounded border" type="email" name="email" placeholder="email" />
+                <input className="w-64 p-2 m-2 rounded border" type="password" name="email" placeholder="password" />
                 <input className="p-2 rounded bg-secondary" type="submit" value="submit" />
             </form>
 
