@@ -7,7 +7,9 @@ export default function Index() {
 
 
         <div className="bg-black w-screen h-screen flex p-4 text-white justify-end items-end">
-        
+            <Component.Head>
+                <title>therapistable</title>
+            </Component.Head>
         </div>
 
     )
