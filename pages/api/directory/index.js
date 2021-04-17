@@ -10,13 +10,14 @@ export default async (req, res) => {
         let data = {}
 
         data.data = CreateToken(body)
-        data.data.email = body.email;
-        const response = await create(data,"Account");
+        data.data.id = body.email || body.number;
+        data.data.type ="Hluani"
+        const response = await create(data,"Directory");
 
         response.status = true
         res.json(response.data)
     } catch {
-        res.json({ message: "user exists already",status:false })
+        res.json({ message: "data exists already",status:false })
     }
 
 

@@ -6,10 +6,10 @@ export default async (req, res) => {
 
     try {
 
-        const {email} = req.query;
+        const {email,password} = req.query;
         const response = await findById(email,"Identity")
 
-
+        //password
         let decodedResponse= ReadToken(response.data)
 
         decodedResponse.status = true
