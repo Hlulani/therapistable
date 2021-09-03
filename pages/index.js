@@ -17,7 +17,7 @@ export default function Index() {
     return (
 
 
-        <div className="bg-white w-screen h-screen flex text-white">
+        <div className="bg-black w-screen h-screen flex text-white">
             <Component.Head>
                 <title>therapistable</title>
             </Component.Head>
